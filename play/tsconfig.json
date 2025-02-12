@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" }, // 应用配置
+    { "path": "./tsconfig.node.json" } // 节点配置
+  ]
+}
