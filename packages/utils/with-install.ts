@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Plugin } from 'vue'; // 从vue库中导入Plugin类型
 
 // 定义一个类型SFCWithInstall<T>，表示一个组件类型T与Plugin类型的结合

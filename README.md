@@ -71,3 +71,15 @@ pnpm install
 ```bash
 pnpm install unplugin-vue-define-options -D -w // 安装unplugin-vue-define-options // 自动生成组件的defineOptions
 ```
+## 五、icon组件的处理及样式处理
+
+文件目录 packages\theme-chalk
+
+## 六、eslint和prettier配置
+
+```bash
+npx // 功能：执行npm包
+npx eslint --init // 初始化eslint
+npx prettier --init // 初始化prettier
+```
+

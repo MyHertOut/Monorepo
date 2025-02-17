@@ -1,0 +1,41 @@
+@use 'config' as *; // 导入config.scss文件
+@forward 'config'; // 导出config.scss文件
+
+// g-button{}
+@mixin b($block) {
+  $B: $namespace + '-' + $block;
+  .#{$B} {
+    @content;
+  }
+}
+
+// &__header => .g-button__header
+@mixin e($element) {
+  @at-root {
+    .#{&+ $element-separator + $element} {
+      @content;
+    }
+  }
+}
+
+// &--primary => .g-button--primary
+@mixin m($modifier) {
+  @at-root {
+    .#{&+ $modifier-separator + $modifier} {
+      @content;
+    }
+  }
+}
+
+// g-button.is-xxx
+@mixin when($state) {
+  @at-root {
+    .#{$state-prefix + $state} {
+      @content;
+    }
+  }
+}
+
+
+
+

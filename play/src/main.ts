@@ -3,6 +3,7 @@ import './style.css'
 import App from './App.vue'
 
 import Icon from  '@guan-chun/components/icon';
+import '@guan-chun/themechalk/src/index.scss';
 
 const plugin = [
   Icon

@@ -1,0 +1,8 @@
+ @use 'mixins/mixins' as *;
+
+ @include b(icon) {
+  display: inline-flex;
+  height: 1em; // 高度 em含义：em是相对长度单位。相对于当前对象内文本的字体尺寸。
+  width: 1em; // 宽度
+  vertical-align: middle; // 垂直对齐
+ }
